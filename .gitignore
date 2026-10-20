@@ -1,0 +1,40 @@
+# Secrets and per-install state - never commit these.
+config.ini
+
+# Runtime state created next to the script (when run from this directory)
+workshop.cfg
+mod_timestamps.json
+mod_remote_timestamps.json
+update_pending
+last_exit_code
+monitor.log
+tmux.log
+dayzweb.log
+dayzweb.pid
+.dayzweb_history.jsonl
+__pycache__/
+.build_check_cache
+.steam_api_cache.json
+.steamcmd_last_run
+.dayzlockfile
+.dayzlockupdate
+.dayz_launch_wrapper.sh
+.dayz.runlock/
+.steam_api.lock/
+
+# Installed server data and archives
+serverfiles/
+serverprofile/
+steamcmd/
+Steam/
+backup/
+crashlogs/
+
+# Editor / OS noise
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Local one-off backups of refactored files
+main.sh.orig

@@ -1,0 +1,15 @@
+# Normalize to LF everywhere. These scripts are executed on Linux; a CRLF
+# checkout breaks them in ways bash -n does not always catch.
+* text=auto eol=lf
+
+# Explicitly declare the shell sources as text with LF endings.
+*.sh text eol=lf
+*.md text eol=lf
+
+# Binary files must never be touched by eol normalization.
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.gz binary

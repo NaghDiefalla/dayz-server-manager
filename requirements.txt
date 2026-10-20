@@ -1,0 +1,5 @@
+# Web GUI (dayzweb.py) dependencies.
+# Install with:  pip3 install -r requirements.txt
+dash>=2.11
+dash-mantine-components>=0.14
+plotly>=5.18
